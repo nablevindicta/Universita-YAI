@@ -45,7 +45,7 @@ export default function Home() {
         )}
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative container mx-auto h-full flex flex-col items-center justify-center text-center text-white px-4">
-          <h1 className="font-headline text-4xl md:text-6xl lg:text-7xl font-bold">Selamat Datang di CampusConnect</h1>
+          <h1 className="font-headline text-4xl md:text-6xl lg:text-7xl font-bold">Selamat Datang di Universitas Y.A.I</h1>
           <p className="mt-4 max-w-2xl text-lg md:text-xl">Gerbang Anda Menuju Pendidikan Kelas Dunia dan Inovasi Tanpa Batas.</p>
           <Button asChild size="lg" className="mt-8 bg-primary hover:bg-primary/90 text-primary-foreground">
             <Link href="/admissions">Daftar Sekarang <ArrowRight className="ml-2 h-5 w-5" /></Link>
@@ -57,7 +57,7 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center mb-12">
             <h2 className="font-headline text-3xl md:text-4xl font-bold">Jelajahi Kampus Kami</h2>
-            <p className="mt-2 text-muted-foreground max-w-2xl mx-auto">Temukan apa yang membuat CampusConnect menjadi tempat yang luar biasa untuk belajar, tumbuh, dan berprestasi.</p>
+            <p className="mt-2 text-muted-foreground max-w-2xl mx-auto">Temukan apa yang membuat Universitas Y.A.I menjadi tempat yang luar biasa untuk belajar, tumbuh, dan berprestasi.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {features.map((feature, index) => (
@@ -82,7 +82,7 @@ export default function Home() {
         </div>
       </section>
       
-      <section className="py-12 md:py-24 bg-background">
+      {/* <section className="py-12 md:py-24 bg-background">
         <div className="container mx-auto px-4 md:px-6">
           <Card className="bg-primary text-primary-foreground overflow-hidden">
             <div className="grid md:grid-cols-2 items-center">
@@ -105,7 +105,7 @@ export default function Home() {
             </div>
           </Card>
         </div>
-      </section>
+      </section> */}
 
     </div>
   );

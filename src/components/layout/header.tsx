@@ -15,7 +15,6 @@ const navLinks = [
   { href: "/academics", label: "Akademik" },
   { href: "/admissions", label: "Penerimaan" },
   { href: "/news", label: "Berita" },
-  { href: "/virtual-tour", label: "Tur Virtual" },
 ];
 
 export function Header() {
@@ -27,7 +26,7 @@ export function Header() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2 font-headline text-2xl font-bold text-primary">
           <University className="h-8 w-8" />
-          <span>CampusConnect</span>
+          <span>Universitas Y.A.I</span>
         </Link>
         <nav className="hidden md:flex items-center gap-6">
           {navLinks.map((link) => (
@@ -55,7 +54,7 @@ export function Header() {
               <div className="flex flex-col gap-6 p-6">
                 <Link href="/" className="flex items-center gap-2 font-headline text-xl font-bold text-primary" onClick={() => setIsOpen(false)}>
                   <University className="h-7 w-7" />
-                  <span>CampusConnect</span>
+                  <span>Universitas Y.A.I</span>
                 </Link>
                 <nav className="flex flex-col gap-4">
                   {navLinks.map((link) => (
