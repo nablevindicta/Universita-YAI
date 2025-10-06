@@ -1,3 +1,76 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero",
+      "description": "A modern university campus building with students walking by.",
+      "imageUrl": "https://images.unsplash.com/photo-1583373834259-46cc92173cb7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx1bml2ZXJzaXR5JTIwY2FtcHVzfGVufDB8fHx8MTc1OTczNjYxOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "university campus"
+    },
+    {
+      "id": "about_history",
+      "description": "An old, historic university building.",
+      "imageUrl": "https://images.unsplash.com/photo-1655911204432-04323935f032?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxoaXN0b3JpYyUyMGJ1aWxkaW5nfGVufDB8fHx8MTc1OTY0OTk1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "historic building"
+    },
+    {
+      "id": "faculty_engineering",
+      "description": "Students working on an engineering project in a lab.",
+      "imageUrl": "https://images.unsplash.com/photo-1581094487600-9d2381d4eeef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxlbmdpbmVlcmluZyUyMGxhYnxlbnwwfHx8fDE3NTk3NDU4NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "engineering lab"
+    },
+    {
+      "id": "faculty_arts",
+      "description": "A student painting in an art studio.",
+      "imageUrl": "https://images.unsplash.com/photo-1609174112693-52fdcebffd89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhcnQlMjBzdHVkaW98ZW58MHx8fHwxNzU5NjgyMzQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "art studio"
+    },
+    {
+      "id": "faculty_business",
+      "description": "Students in business attire having a discussion.",
+      "imageUrl": "https://images.unsplash.com/photo-1522092994069-88b0b37f6dde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxidXNpbmVzcyUyMHN0dWRlbnRzfGVufDB8fHx8MTc1OTY0NDAwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "business students"
+    },
+    {
+      "id": "news_event",
+      "description": "A crowd of students at a campus event.",
+      "imageUrl": "https://images.unsplash.com/photo-1758850891011-1089de343ec6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjYW1wdXMlMjBldmVudHxlbnwwfHx8fDE3NTk2NzQ0MzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "campus event"
+    },
+    {
+      "id": "news_research",
+      "description": "A scientist looking through a microscope in a lab.",
+      "imageUrl": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzY2llbmNlJTIwbGFifGVufDB8fHx8MTc1OTY4OTc0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "science lab"
+    },
+    {
+      "id": "news_graduation",
+      "description": "Graduates throwing their caps in the air.",
+      "imageUrl": "https://images.unsplash.com/photo-1607013407627-6ee814329547?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxncmFkdWF0aW9uJTIwY2VyZW1vbnl8ZW58MHx8fHwxNzU5Njc0NDMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "graduation ceremony"
+    },
+    {
+      "id": "virtual_tour_library",
+      "description": "The interior of a grand university library.",
+      "imageUrl": "https://images.unsplash.com/photo-1501503069356-3c6b82a17d89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwbGlicmFyeXxlbnwwfHx8fDE3NTk2NjE3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "university library"
+    },
+    {
+      "id": "virtual_tour_quad",
+      "description": "A grassy quad area in the center of campus.",
+      "imageUrl": "https://images.unsplash.com/photo-1719586963175-0dc8e383ac23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx1bml2ZXJzaXR5JTIwcXVhZHxlbnwwfHx8fDE3NTk3NDU4NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "university quad"
+    },
+    {
+      "id": "virtual_tour_lab",
+      "description": "A modern science laboratory with equipment.",
+      "imageUrl": "https://images.unsplash.com/photo-1646956141733-2d456a4d337a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzY2llbmNlJTIwbGFib3JhdG9yeXxlbnwwfHx8fDE3NTk3MjA0NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "science laboratory"
+    },
+    {
+      "id": "virtual_tour_stadium",
+      "description": "An empty sports stadium on campus.",
+      "imageUrl": "https://images.unsplash.com/photo-1522778526097-ce0a22ceb253?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c3BvcnRzJTIwc3RhZGl1bXxlbnwwfHx8fDE3NTk2NjA1OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sports stadium"
+    }
+  ]
 }
